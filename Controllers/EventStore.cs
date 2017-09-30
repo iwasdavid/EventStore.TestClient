@@ -24,10 +24,7 @@ namespace EventStore.TestClient.Controllers
         [HttpPost]
         public IActionResult AddEvent(string environment, string eventName, string eventData, string eventMetaData)
         {
-            var d = hhththhththt.asdasdasdasdas..asdasdasdasdas;
-
-            string d = 21;
-            
+                        
             // var connection = EventStoreConnection.Create(new IPEndPoint(IPAddress.Loopback, 1113));
 
             // // Don’t forget to tell the connection to connect!
