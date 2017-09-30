@@ -3,7 +3,7 @@
 <form>
   <div class="form-group">
     <label for="exampleFormControlSelect1">Event Store Environment</label>
-    <select class="form-control" id="exampleFormControlSelect1" ria-describedby="environmentHelp">
+    <select name="environment" class="form-control" id="exampleFormControlSelect1" ria-describedby="environmentHelp">
       <option>Local Development</option>
       <option>TORUS SAT</option>
       <option>ENC PUBLISHING TEST</option>
@@ -12,23 +12,23 @@
   </div>
   <div class="form-group">
     <label for="exampleFormControlSelect1">Choose Event</label>
-    <select class="form-control" id="exampleFormControlSelect1" ria-describedby="eventHelp">
-      <option>EncIngested</option>
-      <option>EncChecked</option>
-      <option>CastleRunStarted</option>
+    <select name="eventName" class="form-control" id="exampleFormControlSelect1" ria-describedby="eventHelp">
+      <option value="EncIngested">EncIngested</option>
+      <option value="EncChecked">EncChecked</option>
+      <option value="CastleRunStarted">CastleRunStarted</option>
     </select>
     <small id="eventHelp" class="form-text text-muted">Choose which event you want added.</small>
   </div>
   <div class="col-sm-6" style="padding: 0; padding-right: 15px;">
       <div class="">
         <label for="exampleFormControlTextarea1">Event Data</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea name="eventData" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </div>
     <div class="col-sm-6" style="padding: 0; padding-left: 15px;">
       <div class="">
         <label for="exampleFormControlTextarea1">Event MetaData</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea name="eventMetaData" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
     </div>
 
@@ -63,6 +63,6 @@
 </div>
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->

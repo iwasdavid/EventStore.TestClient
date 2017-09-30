@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "EventStore.Client/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/EventStore.ClientAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net40/EventStore.ClientAPI.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4750,6 +4759,17 @@
     }
   },
   "libraries": {
+    "EventStore.Client/4.0.2": {
+      "sha512": "WoK5vVHjkh4kZg0xXMLmCOjUNMOz+2ZjUeKhZDLG24muUtBQl/lqvu7zB3SZcCPUqsxBVMUMbnt832XM16JsWA==",
+      "type": "package",
+      "path": "eventstore.client/4.0.2",
+      "files": [
+        "eventstore.client.4.0.2.nupkg.sha512",
+        "eventstore.client.nuspec",
+        "lib/net40/EventStore.ClientAPI.dll",
+        "lib/net40/EventStore.ClientAPI.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -12528,6 +12548,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "EventStore.Client >= 4.0.2",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12577,6 +12598,10 @@
             "version": "2.0.0",
             "autoReferenced": true
           },
+          "EventStore.Client": {
+            "target": "Package",
+            "version": "4.0.2"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
@@ -12589,5 +12614,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EventStore.Client 4.0.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EventStore.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }
