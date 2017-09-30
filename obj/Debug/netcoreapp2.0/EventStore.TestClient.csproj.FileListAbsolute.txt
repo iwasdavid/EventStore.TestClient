@@ -1,0 +1,10 @@
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/bin/Debug/netcoreapp2.0/EventStore.TestClient.deps.json
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/bin/Debug/netcoreapp2.0/EventStore.TestClient.runtimeconfig.json
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/bin/Debug/netcoreapp2.0/EventStore.TestClient.runtimeconfig.dev.json
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/bin/Debug/netcoreapp2.0/EventStore.TestClient.dll
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/bin/Debug/netcoreapp2.0/EventStore.TestClient.pdb
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/obj/Debug/netcoreapp2.0/EventStore.TestClient.csproj.CoreCompileInputs.cache
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/obj/Debug/netcoreapp2.0/EventStore.TestClient.AssemblyInfoInputs.cache
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/obj/Debug/netcoreapp2.0/EventStore.TestClient.AssemblyInfo.cs
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/obj/Debug/netcoreapp2.0/EventStore.TestClient.dll
+/Users/davidlowe/Documents/csharp/EventStore.TestClient/obj/Debug/netcoreapp2.0/EventStore.TestClient.pdb

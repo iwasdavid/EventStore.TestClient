@@ -1,0 +1,68 @@
+<h1>Add Event</h1>
+
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Event Store Environment</label>
+    <select class="form-control" id="exampleFormControlSelect1" ria-describedby="environmentHelp">
+      <option>Local Development</option>
+      <option>TORUS SAT</option>
+      <option>ENC PUBLISHING TEST</option>
+    </select>
+    <small id="environmentHelp" class="form-text text-muted">What Event Store environment do you want this event appended to.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Choose Event</label>
+    <select class="form-control" id="exampleFormControlSelect1" ria-describedby="eventHelp">
+      <option>EncIngested</option>
+      <option>EncChecked</option>
+      <option>CastleRunStarted</option>
+    </select>
+    <small id="eventHelp" class="form-text text-muted">Choose which event you want added.</small>
+  </div>
+  <div class="col-sm-6" style="padding: 0; padding-right: 15px;">
+      <div class="">
+        <label for="exampleFormControlTextarea1">Event Data</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-6" style="padding: 0; padding-left: 15px;">
+      <div class="">
+        <label for="exampleFormControlTextarea1">Event MetaData</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check to consent that you know adding this event in non reversible
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
